@@ -8,7 +8,7 @@
 
     <style>
         body {
-            margin: 0;
+            margin: 0 auto;
             padding: 0;
             width: 100%;
         }
@@ -16,13 +16,48 @@
         header {
             background-image: url(/secao3_visual/exercicio/ProjetoCSS_inicio/imagens/bg-3.jpg);
             background-size: cover;
+            width: 100%;
+            background-color: blue;
+            margin: 0;
+        }
+        
+        header h1 {
+            text-transform: uppercase;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        
+        header nav ul {
+            position: relative;
+            float: right;
+            list-style: none;
+            margin-right: 5px;
+        }
+        
+        header nav ul li {
+            color: white;
+            position: relative;
+            background-color: gray;
+            float: right;
+            padding: 5px;
+        }
+        
+        header nav ul li a {
+            display: block;
         }
     </style>
 </head>
 
 <body>
     <header>
-
+        <nav>
+            <ul>
+                <li><a href=""> Inicio</a></li>
+                <li><a href="">Quem Sou eu</a> </li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Curso web <br>fundamentos</h1>
     </header>
 </body>
 
