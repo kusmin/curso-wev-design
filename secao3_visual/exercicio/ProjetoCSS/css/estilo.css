@@ -24,6 +24,10 @@ body {
     text-shadow: 3px 3px 2px #333;
 }
 
+.hero-content p {
+    background-color: rgba(0, 0, 0, .8);
+}
+
 main {
     width: 80%;
     margin: auto;
